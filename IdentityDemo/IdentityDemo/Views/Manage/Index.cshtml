@@ -1,4 +1,4 @@
-﻿@model IdentityDemo.Models.IndexViewModel
+﻿@model Demo.Data.ViewModels.IndexViewModel
 @{
     ViewBag.Title = "管理";
 }
@@ -30,13 +30,13 @@
         </dd>
         @*
             電話號碼可以用來當成雙重要素驗證系統的第二個驗證要素。
-             
+
              如需設定此 ASP.NET 應用程式以使用簡訊支援雙重要素驗證的詳細資料，
                 請參閱<a href="https://go.microsoft.com/fwlink/?LinkId=403804">此文章</a>。
-             
+
              請在設定雙重要素驗證後取消註解以下區塊
         *@
-        @*  
+        @*
             <dt>電話號碼:</dt>
             <dd>
                 @(Model.PhoneNumber ?? "None")
